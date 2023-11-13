@@ -1,0 +1,59 @@
+body{
+    box-sizing:border-box;
+    
+}
+#carrousel{
+    position: relative;
+    height: 300px;
+    width: 500px;
+    margin: 0 auto;
+    display: flex;
+    
+}
+
+#img{
+    justify-content: center;
+    height: 500px;
+    width: 700px;
+    padding: 0;
+    display: flex;
+    
+}
+
+#carrousel ul li{
+    position: absolute;
+    z-index: 2;
+    list-style: none;
+    justify-content: center;
+}
+
+#carrousel ul li img{
+    margin: 0 auto;
+    height: 300px;
+    width: 500px;
+    justify-content: center;
+}
+
+#carrousel #fleche{
+    position: absolute;
+    height: 300px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 16px;
+}
+
+#carrousel div a img{
+    height: 20px;
+    width: 20px;
+    
+}
+
+#carrousel a{
+    
+    z-index: 7;
+    
+}
+

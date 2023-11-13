@@ -1,0 +1,11 @@
+======= EXERCICE - CREER UNE TODOLIST EN JQUERY ========
+
+Dans cet exercice tu devras réaliser une todolist simplifiée:
+
+Voici ce que ton code doit permettre de faire :
+
+1- On doit pouvoir écrire du texte dans un espace de saisie
+2- En appuyant sur un bouton, le texte entré s'affiche dans une liste
+3- BONUS: On doit pouvoir supprimer ces ajouts de billets en cliquant dessus
+
+Bon courage !

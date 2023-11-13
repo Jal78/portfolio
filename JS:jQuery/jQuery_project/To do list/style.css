@@ -1,0 +1,35 @@
+body {
+          background-color: #85cff7;
+          font-family: 'Helvetica', 'Arial', sans-serif;
+      }
+      button {
+        height: 35px;
+        font-size: 20px;
+        margin-left: 20px;
+      }
+      div {
+        text-align: center
+      }
+      h1 {
+        color: white;
+        margin: 0px auto;
+        padding: 20px;
+        text-align: center;
+      }
+      li {
+        cursor: pointer; 
+        color: #000;
+        font-size: 20px;
+        list-style-type:decimal;
+        margin: 0px auto;
+        padding: 10px;
+        margin-bottom: 10px;
+      } 
+
+      input[type='text'] {
+        font-size: 16px;
+        padding: 20px;
+        border: 1px solid #000;
+        border-radius: 3px;
+      }
+   

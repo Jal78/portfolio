@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeux des nombres</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://kit.fontawesome.com/8c2ab82f3e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="container">
+        <h1>Trouve le chiffre</h1>
+        <form action="">
+            <div class="consigne">
+                <p>Le bute du jeux et de trouver le chiffre qui seras choisis aleatoirement par le code. Vous avez 7 tentative pour cela, alors nous vous souhaitons bonne chance</p>
+                <span style="font-size: 30px;vertical-align: middle;">&#x1F60E;</span>
+                <label for="champs"> Quel est ton chiffre :</label>
+                <input type="text" name="champs" id="champs" placeholder="2">
+                <button type="submit" id="submit" name="submit">Valider</button>
+                <button class="cacher" type="reset" id="reset" name="reset">Rejouer</button>
+                <p id="reponse"></p>
+                <div id="indice">
+                    <i class="fa-regular fa-lightbulb indice" style="color: #c086df;"></i>
+                    <p class="para"></p>
+                </div>
+                
+            </div>
+        </form>
+    </div>
+    
+
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
